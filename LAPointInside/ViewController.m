@@ -30,20 +30,6 @@
     [self.view addSubview:expandView];
     [self layoutView:expandView centerWithSize:CGSizeMake(200, 200)];
     
-    
-    // INView Test
-    
-    //    INView *inView = [[INView alloc] init];
-    //    inView.backgroundColor= [UIColor yellowColor];
-    //    inView.extInteractEdge = 50;
-    //    inView.userInteractionEnabled = YES;
-    //    [self.view addSubview:inView];
-    //    [self layoutView:inView centerWithSize:CGSizeMake(100, 100)];
-    //
-    //    UITapGestureRecognizer *tapGestureRecongnizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(buttonClicks:)];
-    //    [inView addGestureRecognizer:tapGestureRecongnizer];
-    
-    
     // UIView Category
     
     UIImageView *viewCategroy = [[UIImageView alloc] init];
