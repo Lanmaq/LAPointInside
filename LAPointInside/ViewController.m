@@ -22,11 +22,11 @@
     
     self.view.backgroundColor = [UIColor orangeColor];
     
-    // Cover the event responsed area
+    // Event responsed area after expanding
     UIView *expandView = [[UIView alloc] init];
     expandView.backgroundColor = [UIColor whiteColor];
     expandView.userInteractionEnabled = NO;
-    expandView.alpha = 0.5; // > 0.01
+    expandView.alpha = 0.5;
     [self.view addSubview:expandView];
     [self layoutView:expandView centerWithSize:CGSizeMake(200, 200)];
     
