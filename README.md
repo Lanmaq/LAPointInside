@@ -5,14 +5,14 @@ Expand UIView respond event area
 
 ```ruby
 platform :ios, '6.0'
-pod "LAPointInside", "1.0.0"
+pod "UIView+LAPointInside", "1.0.0"
 ```
 
 if it's unable to find
 
 ‘pod setup'
 
-'pod search LAPointInside'
+'pod search UIView+LAPointInside'
 
 ## Requirements
 
